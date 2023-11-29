@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Quản lý sinh viên</title>
+</head>
+<body>
+<h1>Quản lý sinh viên</h1>
+<div class="container">
+    <form id="student-form">
+        <input id="name" type="text" placeholder="Họ và tên">
+        <br>
+        <input id="address" type="text" placeholder="Địa chỉ">
+        <br>
+        <input id="phone" type="text" placeholder="Số điện thoại">
+        <br>
+        <select id="gender">
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+        <br>
+        <button  type="submit">Thêm sinh viên mới</button>
+    </form>
+</div>
+<div id="search-container">
+<input id="search" type="text" placeholder="Tìm kiếm sinh viên">
+</div>
+<h1>Danh sách sinh viên</h1>
+<div id="student-list">
+<table>
+    <tr>
+        <th>Họ và tên</th>
+        <th>Địa chỉ</th>
+        <th>Số điện thoại</th>
+        <th>Giới tính</th>
+        <th></th>
+        <th></th>
+    </tr>
+</table>
+</div>
+<div id="pagination">
+    Pagination
+</div>
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
